@@ -11,6 +11,7 @@ nginx\RunHiddenConsole nginx\php\php-cgi.exe -b 127.0.0.1:9003 -c nginx\php\php.
 
 
 ECHO Starting nginx server...
+REM start nginx.exe
 :: Start the nginx server
 cd nginx
 RunHiddenConsole nginx -c conf/nginx_8080.conf
